@@ -9,3 +9,6 @@ end
 local counter = makeCounter()
 print(counter())  -- Output: 1
 print(counter())  -- Output: 2
+
+local counter2 = createCounter()
+print(counter2())  -- Output: 1
